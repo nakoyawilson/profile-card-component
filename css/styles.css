@@ -21,7 +21,7 @@ body {
   background-color: var(--dark-cyan);
   background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: left -60% top 280%, right -40% bottom 350%;
+  background-position: left -250px top -510px, right -200px bottom -600px;
   color: var(--desaturated-blue);
   line-height: 1.6;
 }
