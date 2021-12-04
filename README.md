@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -11,6 +11,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,3 +42,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Frontend Mentor - [@nakoyawilson](https://www.frontendmentor.io/profile/nakoyawilson)
 - Twitter - [@nakoyawilson](https://twitter.com/nakoyawilson)
 - LinkedIn - [@nakoyawilson](https://www.linkedin.com/in/nakoyawilson/)
+
+## Acknowledgments
+
+Thanks to [Alex (@al3xback)](https://www.frontendmentor.io/profile/al3xback) for feedback on ways to improve background positioning.
