@@ -107,6 +107,6 @@ main {
 /* Media Queries */
 @media screen and (max-width: 500px) {
   body {
-    background-position: left 150% top 300%, right 140% bottom 300%;
+    background-position: left -600px top -700px, right -650px bottom -600px;
   }
 }
