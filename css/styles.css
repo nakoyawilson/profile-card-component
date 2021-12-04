@@ -1,3 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --desaturated-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-color: var(--dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left -60% top 280%, right -40% bottom 350%;
+  color: var(--desaturated-blue);
+  line-height: 1.6;
+}
+
+/* Card */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  background-color: var(--color-white);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .175);
+}
+
+.card-image {
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 140px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 4px solid var(--color-white);
+  margin: 5rem auto;
+}
+
+.details {
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.age {
+  font-weight: 400;
+  color:var(--grayish-blue);
+}
+
+.location {
+  font-size: 14px;
+  color: var(--grayish-blue);
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--dark-gray);
+  padding: 1.2rem;
+}
+
+.stats-number {
+  font-weight: 700;
+}
+
+.stats-description {
+  color: var(--grayish-blue);
+  font-size: 12px;
+}
+
 /* Footer Section */
 .attribution {
   font-size: 11px;
@@ -6,4 +101,12 @@
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  font-weight: 700;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  body {
+    background-position: left 150% top 300%, right 140% bottom 300%;
+  }
 }
