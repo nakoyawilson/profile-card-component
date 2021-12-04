@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
 :root {
   --dark-cyan: hsl(185, 75%, 39%);
@@ -16,14 +16,12 @@
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   background-color: var(--dark-cyan);
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-repeat: no-repeat;
-  background-position: left -250px top -510px, right -200px bottom -600px;
   color: var(--desaturated-blue);
   line-height: 1.6;
+  overflow: hidden;
 }
 
 /* Card */
@@ -31,7 +29,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 97vh;
 }
 
 .card {
@@ -39,9 +37,34 @@ main {
   height: auto;
   background-color: var(--color-white);
   border-radius: 15px;
-  overflow: hidden;
   text-align: center;
-  box-shadow: 0 .5rem 3rem rgba(0, 0, 0, .7);
+  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 980px;
+  height: 980px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.card::before {
+  bottom: 100%;
+  right: 100%;
+  transform: translate(20%, 20%);
+  background-image: url(../images/bg-pattern-top.svg);
+}
+
+.card::after {
+  top: 100%;
+  left: 100%;
+  transform: translate(-20%, -20%);
+  background-image: url(../images/bg-pattern-bottom.svg);
 }
 
 .card-image {
@@ -49,6 +72,7 @@ main {
   background-repeat: no-repeat;
   position: relative;
   height: 140px;
+  border-radius: 15px 15px 0 0;
 }
 
 .avatar {
@@ -68,7 +92,7 @@ main {
 
 .age {
   font-weight: 400;
-  color:var(--grayish-blue);
+  color: var(--grayish-blue);
 }
 
 .location {
@@ -102,11 +126,4 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
   font-weight: 700;
-}
-
-/* Media Queries */
-@media screen and (max-width: 500px) {
-  body {
-    background-position: left -600px top -700px, right -650px bottom -600px;
-  }
 }
