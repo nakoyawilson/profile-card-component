@@ -25,7 +25,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-gle4_IIiO](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-gle4_IIiO)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://nakoyawilson.github.io/profile-card-component/](https://nakoyawilson.github.io/profile-card-component/)
 
 ## My process
 
