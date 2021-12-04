@@ -104,7 +104,7 @@ main {
 .stats {
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid var(--dark-gray);
+  border-top: 1px solid hsla(0, 1%, 58%, 0.116);
   padding: 1.5rem;
 }
 
