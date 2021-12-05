@@ -32,8 +32,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- CSS
 - Flexbox
 
 ## Author
