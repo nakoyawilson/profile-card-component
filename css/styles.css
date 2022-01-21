@@ -21,24 +21,19 @@ body {
   background-color: var(--dark-cyan);
   color: var(--desaturated-blue);
   line-height: 1.6;
+  width: 100vw;
   overflow: hidden;
 }
 
 /* Card */
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 97vh;
-}
 
 .card {
-  width: 350px;
-  height: auto;
+  width: min(87.2%, 22rem);
+  margin: 10.75rem auto;
   background-color: var(--color-white);
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0.5rem 5rem hsla(229, 23%, 23%, 0.2);
   position: relative;
 }
 
@@ -70,6 +65,7 @@ main {
 .card-image {
   background-image: url(../images/bg-pattern-card.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 140px;
   border-radius: 15px 15px 0 0;
