@@ -21,11 +21,13 @@ body {
   background-color: var(--dark-cyan);
   color: var(--desaturated-blue);
   line-height: 1.6;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 /* Card */
+
+main {
+  overflow: hidden;
+}
 
 .card {
   width: min(87.2%, 22rem);
