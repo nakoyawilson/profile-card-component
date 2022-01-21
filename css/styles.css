@@ -21,11 +21,13 @@ body {
   background-color: var(--dark-cyan);
   color: var(--desaturated-blue);
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 /* Card */
 
 main {
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -117,6 +119,7 @@ main {
 }
 
 /* Footer Section */
+
 .attribution {
   font-size: 11px;
   text-align: center;
